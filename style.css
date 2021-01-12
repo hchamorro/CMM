@@ -1,0 +1,72 @@
+.d-f {
+  display: flex;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.world-titlte {
+  background: black;
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+
+.magenta {
+  color: magenta;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: chartreuse;
+}
+
+.bg-orange {
+  background-color: coral;
+}
+
+.bg-red {
+  background-color: crimson;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.ai-c {
+  align-items: center;
+}
+.card {
+  border-radius: 2px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem;
+  width: 200px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.f-20p {
+  font-size: 20px;
+}
+
+.ff-ym {
+  font-family: 'Yusei Magic', sans-serif;
+}
