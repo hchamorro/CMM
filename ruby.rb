@@ -19,18 +19,21 @@ def wrap(text)
             counter += 1
             char= " "
         # boundary without breaking words or going over max 
-        elsif  counter >= 75 && char == " "     
+        elsif  counter >= 80 && char == " "     
             counter = 0
             char ="\n"
+        #checking charcters after spaces to see if will go over max 😅
+        elsif char ==" " && char_arr[index... index + 5].length + counter > 74 && char_arr[index + 1... index + 5].include?(" ") == false
+                counter = 0
+                char="\n"
+            
         end
         counter += 1 
         output_arr <<char
     end
     
-    wrapped = output_arr.join.to_s
-    puts wrapped
-    p wrapped
-    return wrapped    
+  wrapped = output_arr.join.to_s
+  return wrapped    
 end
 
-wrap(imported_text)
+puts wrap(imported_text)
