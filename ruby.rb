@@ -23,7 +23,7 @@ def wrap(text)
             counter = 0
             char ="\n"
         #checking charcters after spaces to see if will go over max 😅
-        elsif char ==" " && char_arr[index... index + 5].length + counter > 74 && char_arr[index + 1... index + 5].include?(" ") == false
+        elsif char ==" " && char_arr[index... index + 5].length + counter > 75 && char_arr[index + 1... index + 5].include?(" ") == false
                 counter = 0
                 char="\n"
             

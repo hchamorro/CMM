@@ -10,8 +10,8 @@ const friends = [
 
 let randomizedFriends = shuffle(friends);
 
-function renderFriends() {
-  randomizedFriends.forEach((friend) => {
+function renderFriends(data) {
+  data.forEach((friend) => {
     div = document.createElement('div');
 
     div.textContent = friend.name;
@@ -42,4 +42,4 @@ function shuffle(array) {
   return array;
 }
 
-renderFriends();
+renderFriends(randomizedFriends);
